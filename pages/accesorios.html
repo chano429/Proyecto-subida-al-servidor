@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meta para SSEO -->
+    <meta name="descrption" content="La mejor bicicletaría de Santa Fe, Argentina">
+    <meta name="keywords" content="Bici, Bicicletas, Bike">
+    
+    <title>Mountain Bike</title>
+ 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--Estilos -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    
+    <div id="plantilla">
+        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid menu">
+                    <!-- "img src" para insertar una imagen -->
+                    <a class="navbar-brand" href="#"><img src="../img/logo mountain bike.jpg" id="logo" alt="logo mountain bike"></a>
+                        
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                        <li class="menu__item">
+                            <a class="nav-link active" id="colorBotonTexto" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="nav-link active" id="colorBotonTexto" aria-current="page" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="nav-link active" id="colorBotonTexto" aria-current="page" href="./rodados.html">Rodados</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="nav-link active" id="colorBotonTexto" aria-current="page" href="./accesorios.html">Accesorios</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="nav-link active" id="colorBotonTexto" aria-current="page" href="./otros.html">Otros</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="nav-link active" id="colorBotonTexto" aria-current="page" href="./contactanos.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="buscar" placeholder="buscar" aria-label="Buscar">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                    </div>
+                </div>
+                </nav>
+        <!-- fin navbar -->
+        </header>
+
+        <section id="productos">
+                <!-- cards -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 card__reverso">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/accesorios/calza negro con celeste frente.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Calza Masculina</h5>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/accesorios/remera negro con fucsia frente.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Casaca Femenina</h5>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../img/accesorios/casaca-vairo-raven-mujer-negra.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Casaca Femenina</h5>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- publicidad -->
+        <aside class="publicidad bordes__aside">
+            
+            <!-- carrusel -->
+            <div class="container">
+                <div class="row bordes__aside">
+                    <div col-1>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner imagenes">
+                                <div class="carousel-item active">
+                                    <img src="../img/logo-slp.jpg" class="d-block w-100 border__items" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/shimano-grupos-componentes-940x423.jpg" class="d-block w-100  border__items" alt="...">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="https://images.unsplash.com/photo-1531502774286-5e4e8e94879f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmlrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100  border__items" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div col-1>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner imagenes">
+                                <div class="carousel-item active">
+                                    <img src="../img/van halen.png" class="d-block w-100 border__items" alt="van halen">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/black&decker.jpg" class="d-block w-100 border__items" alt="black&decker">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/wd40.png" class="d-block w-100 border__items" alt="wd40">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div col-1>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner imagenes">
+                                <div class="carousel-item active">
+                                    <img src="../img/booster pro.jpg" class="d-block w-100  border__items" alt="booster pro">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/karma.jpg" class="d-block w-100  border__items" alt="karma">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/kranium.jfif" class="d-block w-100  border__items" alt="kranium">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/saber.jfif" class="d-block w-100  border__items" alt="saber">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div col-1>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner imagenes">
+                                <div class="carousel-item active">
+                                    <img src="../img/casco bikeman.jfif" class="d-block w-100  border__items" alt="casco bikeman">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/casco cairbull.jfif" class="d-block w-100  border__items" alt="casco cairbull">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/casco scott.jpg" class="d-block w-100  border__items" alt="casco scott">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/casco lixada.jpg" class="d-block w-100  border__items" alt="casco lixada">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/guantes.png.opdownload" class="d-block w-100  border__items" alt="guantes">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div col-1>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner imagenes">
+                                <div class="carousel-item active">
+                                    <img src="../img/remera ciclcimos uruguay.jpg" class="d-block w-100 border__items" alt="remera ciclcimos uruguay">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/remera ciclcismos argentina 2.png" class="d-block w-100 border__items" alt="remera ciclismo argentina">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/remera ciclcismos argentina.png" class="d-block w-100 border__items" alt="remera ciclismo argentina">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/remera ciclismo imola.jpg" class="d-block w-100 border__items" alt="remera ciclismo imola">
+                                </div>
+                                <div class="carousel-item"> 
+                                    <img src="../img/remera ciclismo peru.jfif" class="d-block w-100 border__items" alt="remera ciclismo peru">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <footer class="border-items"> 
+            <div>
+                <img src="../img/logo facebook.jfif" alt="" class="footer__card">
+                <img src="../img/instagram.jpg" alt="" class="footer__card">
+            </div>
+            <div>
+                <img src="../img/placeholder.png" alt="" class="footer__card">
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>
